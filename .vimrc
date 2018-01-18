@@ -15,7 +15,7 @@ set t_Co=256 						" use 256 colours
 set ignorecase					" ignore case when searching
 set background=dark
 set cursorline
-colorscheme dc3
+colorscheme 256-jungle
 
 set statusline=%F%m%r%h%w\ %=%y\ POS=%v,%l\/%L\ \ %p%%
 set laststatus=2
