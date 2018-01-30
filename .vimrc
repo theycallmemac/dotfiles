@@ -34,7 +34,7 @@ colorscheme 256-jungle
 " tab pages to edit multiple files, but it is still best to enable an option to
 " allow easier switching between files.
 "
-" One such option is the 'hidden' option, which allows you to re-use the same
+" One such option is the 'hidden' option, which allowyou to re-use the same
 " window and switch from an unsaved buffer without saving it first. Also allows
 " you to keep an undo history for multiple files when re-using the same window
 " in this way. Note that using persistent undo also lets you undo in multiple
