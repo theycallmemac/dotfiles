@@ -34,7 +34,7 @@ colorscheme 256-jungle
 " tab pages to edit multiple files, but it is still best to enable an option to
 " allow easier switching between files.
 "
-" One such option is the 'hidden' option, which allowyou to re-use the same
+" One such option is the 'hidden' option, which allows you to re-use the same
 " window and switch from an unsaved buffer without saving it first. Also allows
 " you to keep an undo history for multiple files when re-using the same window
 " in this way. Note that using persistent undo also lets you undo in multiple
@@ -157,3 +157,53 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
  
 "------------------------------------------------------------
+
+" vundle {{{1
+
+" needed to run vundle (but i want this anyways)
+set nocompatible
+
+" vundle needs filtype plugins off
+" i turn it on later
+filetype plugin indent off
+syntax off
+
+" set the runtime path for vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" start vundle environment
+call vundle#begin()
+
+" list of plugins {{{2
+" let Vundle manage Vundle (this is required)
+"old: Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+" Plugin 'honza/vim-snippets'
+"
+" " Trigger configuration. Do not use <tab> if you use
+" https://github.com/Valloric/YouCompleteMe.
+" let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"
+" " If you want :UltiSnipsEdit to split your window.
+" let g:UltiSnipsEditSplit="vertical"
+" to install a plugin add it here and run :PluginInstall.
+" to update the plugins run :PluginInstall! or :PluginUpdate
+" to delete a plugin remove it here and run :PluginClean
+" 
+
+" YOUR LIST OF PLUGINS GOES HERE LIKE THIS:
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
+" add plugins before this
+call vundle#end()
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+filetype plugin indent on
+syntax on
