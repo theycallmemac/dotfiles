@@ -21,7 +21,8 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
-colorscheme 256-jungle
+colorscheme bdconry
+set encoding=utf8
 
  
 "------------------------------------------------------------
@@ -171,5 +172,21 @@ syntax off
 " set the runtime path for vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 
+
+" start vundle environment
+call vundle#begin()
+
+" list of plugins {{{2
+" let Vundle manage Vundle (this is required)
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+" add plugins before this
+call vundle#end()
+
 filetype plugin indent on
 syntax on
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 &&exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
