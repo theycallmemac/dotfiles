@@ -85,6 +85,7 @@ set backspace=indent,eol,start
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
 set autoindent
+set smartindent
  
 " Stop certain movements from always going to the first character of a line.
 " While this behaviour deviates from that of Vi, it does what most users
@@ -94,6 +95,9 @@ set nostartofline
 " Display the cursor position on the last line of the screen or in the status
 " line of a window
 set ruler
+
+" Set paste 
+set paste
  
 " Always display the status line, even if only one window is displayed
 set laststatus=2
@@ -138,11 +142,6 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
  
-" Indentation settings for using hard tabs for indent. Display tabs as
-" four characters wide.
-"set shiftwidth=4
-"set tabstop=4
- 
  
 "------------------------------------------------------------
 " Mappings {{{1
@@ -183,10 +182,12 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'w0rp/ale'
 " add plugins before this
 call vundle#end()
 
 filetype plugin indent on
 syntax on
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 &&exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+set guifont=HackRegular\ Nerd\ Font:h11
+let g:ale_fixers = {'javascript': ['eslint'], 'python': ['autopep8'], 'rust': 'cargo'}
+let g:ale_fix_on_save = 1
