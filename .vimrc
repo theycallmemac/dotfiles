@@ -183,11 +183,12 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'w0rp/ale'
+Plugin 'airblade/vim-gitgutter'
 " add plugins before this
 call vundle#end()
 
 filetype plugin indent on
 syntax on
 set guifont=HackRegular\ Nerd\ Font:h11
-let g:ale_fixers = {'javascript': ['eslint'], 'python': ['autopep8'], 'rust': 'cargo'}
+let g:ale_fixers = {'javascript': ['eslint'], 'python': ['autopep8'], 'rust': ['cargo'], 'html': ['alex'], 'css': ['prettier']}
 let g:ale_fix_on_save = 1
