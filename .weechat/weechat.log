@@ -1,0 +1,66 @@
+[2018-04-11 09:24:18] WeeChat 1.9.1 (compiled on Sep 23 2017 16:01:39)
+[2018-04-11 09:24:18] Writing configuration file sec.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file sec.conf
+[2018-04-11 09:24:18] Reading configuration file weechat.conf
+[2018-04-11 09:24:18] Writing configuration file plugins.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file plugins.conf
+[2018-04-11 09:24:18] Writing configuration file charset.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file charset.conf
+[2018-04-11 09:24:18] Writing configuration file logger.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file logger.conf
+[2018-04-11 09:24:18] Writing configuration file exec.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file exec.conf
+[2018-04-11 09:24:18] Reading configuration file trigger.conf
+[2018-04-11 09:24:18] Writing configuration file aspell.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file aspell.conf
+[2018-04-11 09:24:18] Reading configuration file alias.conf
+[2018-04-11 09:24:18] Writing configuration file buflist.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file buflist.conf
+[2018-04-11 09:24:18] Writing configuration file fifo.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file fifo.conf
+[2018-04-11 09:24:18] Writing configuration file xfer.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file xfer.conf
+[2018-04-11 09:24:18] Reading configuration file irc.conf
+[2018-04-11 09:24:18] Writing configuration file relay.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file relay.conf
+[2018-04-11 09:24:18] Writing configuration file script.conf (default options)
+[2018-04-11 09:24:18] Reading configuration file script.conf
+[2018-04-11 09:24:18] irc: connecting to server irc.redbrick.dcu.ie/6667...
+[2018-04-11 09:44:17] Writing configuration file colorize_nicks.conf (default options)
+[2018-04-11 09:44:17] Reading configuration file colorize_nicks.conf
+[2018-04-11 10:58:40] Writing configuration file colorize_nicks.conf
+[2018-04-11 10:58:40] Reading configuration file colorize_nicks.conf
+[2018-04-11 10:58:55] Writing configuration file colorize_nicks.conf
+[2018-04-11 10:58:55] Reading configuration file colorize_nicks.conf
+[2018-04-11 10:58:59] Writing configuration file colorize_nicks.conf
+[2018-04-11 10:58:59] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:01:24] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:01:25] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:03:26] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:03:26] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:04:15] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:04:15] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:04:49] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:04:49] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:24:17] Writing configuration file sec.conf
+[2018-04-11 11:24:17] Writing configuration file weechat.conf
+[2018-04-11 11:24:17] Writing configuration file plugins.conf
+[2018-04-11 11:24:17] Writing configuration file charset.conf
+[2018-04-11 11:24:17] Writing configuration file logger.conf
+[2018-04-11 11:24:17] Writing configuration file exec.conf
+[2018-04-11 11:24:17] Writing configuration file trigger.conf
+[2018-04-11 11:24:17] Writing configuration file aspell.conf
+[2018-04-11 11:24:17] Writing configuration file alias.conf
+[2018-04-11 11:24:17] Writing configuration file buflist.conf
+[2018-04-11 11:24:17] Writing configuration file fifo.conf
+[2018-04-11 11:24:17] Writing configuration file xfer.conf
+[2018-04-11 11:24:17] Writing configuration file irc.conf
+[2018-04-11 11:24:17] Writing configuration file relay.conf
+[2018-04-11 11:24:17] Writing configuration file script.conf
+[2018-04-11 11:24:17] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:24:25] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:24:25] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:25:57] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:25:57] Reading configuration file colorize_nicks.conf
+[2018-04-11 11:27:26] Writing configuration file colorize_nicks.conf
+[2018-04-11 11:27:26] Reading configuration file colorize_nicks.conf
